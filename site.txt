@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rubi Argento</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #fff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+            color: #a52a2a;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            font-size: 1.5em;
+            color: #a52a2a;
+            margin-bottom: 10px;
+        }
+        .portfolio-item, .product-item {
+            background-color: #fff;
+            padding: 15px;
+            margin: 10px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .portfolio-item img, .product-item img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #fff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .social-links a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+        }
+        form {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        form button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #a52a2a;
+            color: #fff;
+            font-size: 1em;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Rubi Argento</h1>
+        <nav>
+            <a href="#portfolio">Portfólio</a>
+            <a href="#vendas">Vendas</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="portfolio" class="section">
+            <h2>Portfólio</h2>
+            <div class="portfolio-item">
+                <img src="link-da-imagem-1.jpg" alt="Descrição da Imagem 1">
+                <p>Descrição do projeto 1.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="link-da-imagem-2.jpg" alt="Descrição da Imagem 2">
+                <p>Descrição do projeto 2.</p>
+            </div>
+        </section>
+
+        <section id="vendas" class="section">
+            <h2>Vendas de Pratas</h2>
+            <div class="product-item">
+                <img src="link-do-produto-1.jpg" alt="Descrição do Produto 1">
+                <p>Descrição do produto 1.</p>
+            </div>
+            <div class="product-item">
+                <img src="link-do-produto-2.jpg" alt="Descrição do Produto 2">
+                <p>Descrição do produto 2.</p>
+            </div>
+        </section>
+
+        <section id="contato" class="section">
+            <h2>Contato</h2>
+            <form action="mailto:seu-email@example.com" method="post" enctype="text/plain">
+                <input type="text" name="name" placeholder="Seu nome" required>
+                <input type="email" name="email" placeholder="Seu e-mail" required>
+                <textarea name="message" placeholder="Sua mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://www.instagram.com/rubiargento" target="_blank">Instagram</a>
+            <a href="https://www.facebook.com/rubiargento" target="_blank">Facebook</a>
+            <a href="https://www.twitter.com/rubiargento" target="_blank">Twitter</a>
+        </div>
+        <p>&copy; 2024 Rubi Argento. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
